@@ -1,0 +1,41 @@
+
+.big-image-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  background-color:skyblue;
+  padding: 1rem;
+  max-width: 580px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.big-image-outer-border {
+  border: 4px dashed blue;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.big-image-only {
+  border-radius: 20px;
+  padding: 14px;
+  padding-bottom: 8px;
+  max-width: 550px;
+  transition:  transform 0.3s ease-in-out;
+  z-index: 2;
+}
+
+.big-image-only.zoom {
+  transform: scale(1.8);
+  z-index: 3;
+}
+
+.under-image-text {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 5px;
+}

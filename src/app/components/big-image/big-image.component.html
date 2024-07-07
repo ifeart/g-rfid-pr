@@ -1,0 +1,6 @@
+<figure class="big-image-figure">
+    <div class="big-image-outer-border" (click)="toggleImageZoomed()">
+        <img [src]='imageUrl' [alt]="imageText" class="big-image-only" [class.zoom]="imageZoomed">
+    </div>
+    <figcaption class="under-image-text">{{  imageText  }}</figcaption>
+</figure>

@@ -5,6 +5,7 @@ import { HistoryPageComponent } from './pages/history-page/history-page.componen
 import { DebugPageComponent } from './pages/debug-page/debug-page.component';
 import { PrinciplesComponent } from './pages/principles/principles.component';
 import { ImplementationsComponent } from './pages/implementations/implementations.component';
+import { ComparePageComponent } from './pages/compare-page/compare-page.component';
 
 const routes: Routes = [
   { path: '', component: MainPageComponent},
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'principles', component: PrinciplesComponent},
   { path: 'implementations', component: ImplementationsComponent},
   { path: 'debug', component: DebugPageComponent},
+  { path: 'compare', component: ComparePageComponent}
 ];
 
 @NgModule({

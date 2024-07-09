@@ -17,6 +17,7 @@ import { Heading3Component } from './components/heading-3/heading-3.component';
 import { Heading1Component } from './components/heading-1/heading-1.component';
 import { PrinciplesComponent } from './pages/principles/principles.component';
 import { ImplementationsComponent } from './pages/implementations/implementations.component';
+import { ComparePageComponent } from './pages/compare-page/compare-page.component';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { ImplementationsComponent } from './pages/implementations/implementation
     Heading3Component,
     Heading1Component,
     PrinciplesComponent,
-    ImplementationsComponent
+    ImplementationsComponent,
+    ComparePageComponent,
   ],
   imports: [
     BrowserModule,

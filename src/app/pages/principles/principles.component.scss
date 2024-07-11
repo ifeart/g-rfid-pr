@@ -4,3 +4,26 @@
     padding: 20px;
     font-family: Arial, sans-serif;
 }
+
+.table-default {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.table-td-name {
+  text-align: center;
+}
+
+.table-td-desc {
+  width: 400px;
+  padding: 10px;
+}
+
+.table-td-img {
+  width: 200px;
+}
+
+th, td { 
+  padding: 15px;
+  border: 1px solid black;
+}

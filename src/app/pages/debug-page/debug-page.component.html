@@ -4,6 +4,35 @@
     </div>
     <app-big-image imageUrl="assets/image/866mhz.jpg" imageText="Пример картинки"></app-big-image>
     <app-big-image></app-big-image>
+    <br>
+    <table class="table-default">
+        <tr>
+            <th>Тип метки</th>
+            <th>Описание отличий</th>
+            <th>Изображение</th>
+        </tr>
+        <tr>
+            <td class="table-td-name">Пассивные</td>
+            <td class="table-td-desc">Пассивные метки не имеют собственного источника питания и получают энергию для работы от радиочастотного 
+                сигнала, передаваемого считывателем. Это делает их самыми дешевыми, но с меньшим диапазоном детектирования.</td>
+            <td><img class="table-td-img" src="assets/image/rfid-passive-tag.jpg" alt="Пассивная RFID-метка"></td>
+        </tr>
+        <tr>
+            <td class="table-td-name">Полупассивные</td>
+            <td class="table-td-desc">Полупассивные метки имеют небольшую встроенную батарею, которая питает микросхему и позволяет им 
+                работать без внешнего источника питания с большим диапазоном детектирования по сравнению с пассивными 
+                метками, но также и большую стоимость.</td>
+            <td><img class="table-td-img" src="assets/image/rfid-semi-passive-tag.png" alt="Полупассивная RFID-метка"></td>
+        </tr>
+        <tr>
+            <td class="table-td-name">Активные</td>
+            <td class="table-td-desc">Активные метки имеют встроенный источник питания, который позволяет им передавать постоянный сигнал 
+                на большие расстояния. Они обычно используются для мониторинга перемещения дорогостоящих активов и могут 
+                содержать датчики для сбора дополнительной информации, что делает их самыми дорогостоящими.</td>
+            <td><img class="table-td-img" src="assets/image/rfid-active-tag.png" alt="Активная RFID-метка"></td>
+        </tr>
+    </table>
+    <br>
     <a mat-flat-button color="warn" class="footer-link" href="#">Ссылка 1</a>
     <a mat-flat-button color="primary" class="footer-link" href="#">Ссылка 2</a>
     <a mat-flat-button color="accent" class="footer-link" href="#">Ссылка 3</a>

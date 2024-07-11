@@ -1,7 +1,7 @@
 .header {
   background-color: #ffffff;
   color: #fff;
-  padding: 10px 0;
+  padding-bottom: 10px;
 }
 
 .header-line {
@@ -29,7 +29,7 @@
 }
 
 .header-logo {
-  height: 100px;
+  height: 40px;
   width: auto;
 }
 
@@ -45,12 +45,12 @@
 
 .nav-bar {
   background-color: #01478F;
-  padding: 10px 0;
 }
 
 .nav-bar ul {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0;
@@ -71,3 +71,6 @@ li {
   color: white;
 }
 
+.nav-bar-logo:hover {
+  background-color: rgb(43, 90, 199);
+}

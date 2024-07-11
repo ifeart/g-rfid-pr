@@ -8,10 +8,13 @@
     font-family: Arial, sans-serif;
 }
 
-.footer-link {
-    margin: 5px;
-    background-color: azure;
-    color: black;
-    padding: 5px;
-    border-radius: 5px;
+.back-to-top {
+    z-index: 0;
+    color: rgb(18, 0, 82);
+    padding: 10px;
+}
+  
+.defoult-button-set:hover {
+    background-color: rgb(43, 90, 199);
+    color: white;
 }

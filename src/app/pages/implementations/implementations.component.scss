@@ -1,9 +1,17 @@
-.block-text {
+.block-text-new {
   margin: 0 auto;
   max-width: 1300px;
   padding: 20px;
   font-family: Arial, sans-serif;
 }
+
+.block-text {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+
 /*h3-list на данный момент не используется*/
 .h3-list {
     font-weight: bold;

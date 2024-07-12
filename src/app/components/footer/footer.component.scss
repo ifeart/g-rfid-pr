@@ -10,11 +10,21 @@
 
 .back-to-top {
     z-index: 0;
-    color: rgb(18, 0, 82);
+    color: white;
+    background-color: #01478F;
     padding: 10px;
+    appearance: none;
+    border: 2px rgb(197, 197, 197) solid;
+    border-radius: 5px;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+    position: sticky;
+    margin-left: 30%;
+    bottom: 2%;  
 }
   
-.defoult-button-set:hover {
+.back-to-top:hover {
     background-color: rgb(43, 90, 199);
     color: white;
 }

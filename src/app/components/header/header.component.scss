@@ -31,7 +31,10 @@
 .header-logo {
   height: 40px;
   width: auto;
+  margin-top: 5px;
 }
+
+
 
 .header-logo:hover {
   filter: none;
@@ -69,8 +72,4 @@ li {
 .nav-bar-button a:hover {
   background-color: rgb(43, 90, 199);
   color: white;
-}
-
-.nav-bar-logo:hover {
-  background-color: rgb(43, 90, 199);
 }

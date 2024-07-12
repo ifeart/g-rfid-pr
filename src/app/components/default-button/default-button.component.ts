@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-default-button',
@@ -6,7 +6,7 @@ import { Component, Input } from '@angular/core';
   styleUrl: './default-button.component.scss'
 })
 export class DefaultButtonComponent {
-  @Input() rLink: string = '';
-  @Input()  buttonText: string  =  'Кнопочка';
-  @Input()  buttonColor: string   =   'primary';
+  @Input() rLink = "";
+  @Input() buttonText: string = "Кнопочка";
+  @Input() buttonColor: string = "primary";
 }

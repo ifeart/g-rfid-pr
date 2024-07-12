@@ -11,10 +11,6 @@
   text-align: justify;
 }
 
-.table-td-name {
-  text-align: center;
-}
-
 .table-td-desc {
   width: 400px;
   padding: 10px;
@@ -27,4 +23,8 @@
 th, td { 
   padding: 15px;
   border: 1px solid black;
+}
+
+.table-td-name {
+  text-align: center;
 }

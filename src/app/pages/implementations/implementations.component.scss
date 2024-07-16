@@ -27,6 +27,8 @@
     align-items: center;
     list-style: none;
     max-width: 100%;
+    background-color: rgb(196, 227, 255);
+    border-radius: 25px;
 }
 
 .li-image-c {
@@ -37,7 +39,7 @@
 .image-c {
     border-radius: 25px;
     max-width: 80%;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -52,3 +54,13 @@
 .image-with-text-reverse {
     flex-direction: row-reverse
 }
+
+.list-more-image {
+    list-style: none;
+    padding: 0;
+}
+
+.li-image-c-figure {
+    margin: 0;
+}
+
